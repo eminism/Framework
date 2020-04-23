@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="listeners.Listeners"/>
+		<listener class-name="resources.ExtentReporterNG"/>
+	</listeners>
+	
+	<test name="Validating title of the page">
+		<classes>
+			<class
+				name="com.automationpractice.test.HomePageTitleVerification" />
+		</classes>
+	</test>
+
+	<test name="validating search box bar">
+		<classes>
+			<class
+				name="com.automationpractice.test.SearchBarValidationTest" />
+		</classes>
+	</test>
+
+	<test name="validating home page">
+		<classes>
+			<class name="com.automationpractice.test.HomePage" />
+		</classes>
+	</test>
+</suite>

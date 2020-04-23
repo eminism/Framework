@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Validating title of the page(failed)">
+    <classes>
+      <class name="com.automationpractice.test.HomePageTitleVerification">
+        <methods>
+          <include name="homePageContent"/>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.automationpractice.test.HomePageTitleVerification -->
+    </classes>
+  </test> <!-- Validating title of the page(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30781" started-at="2020-04-22T18:09:39 EDT" finished-at="2020-04-22T18:10:09 EDT">
+    <groups>
+    </groups>
+    <test name="Validating title of the page" duration-ms="8550" started-at="2020-04-22T18:09:39 EDT" finished-at="2020-04-22T18:09:47 EDT">
+      <class name="com.automationpractice.test.HomePageTitleVerification">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.automationpractice.test.HomePageTitleVerification@71e9ddb4]" name="initialize" is-config="true" duration-ms="7744" started-at="2020-04-22T18:09:39 EDT" finished-at="2020-04-22T18:09:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="FAIL" signature="homePageContent()[pri:0, instance:com.automationpractice.test.HomePageTitleVerification@71e9ddb4]" name="homePageContent" duration-ms="115" started-at="2020-04-22T18:09:46 EDT" finished-at="2020-04-22T18:09:47 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [AUTHENTICATIO] but found [AUTHENTICATION]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [AUTHENTICATIO] but found [AUTHENTICATION]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.automationpractice.test.HomePageTitleVerification.homePageContent(HomePageTitleVerification.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageContent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automationpractice.test.HomePageTitleVerification@71e9ddb4]" name="teardown" is-config="true" duration-ms="85" started-at="2020-04-22T18:09:47 EDT" finished-at="2020-04-22T18:09:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.test.HomePageTitleVerification -->
+    </test> <!-- Validating title of the page -->
+    <test name="validating search box bar" duration-ms="6678" started-at="2020-04-22T18:09:47 EDT" finished-at="2020-04-22T18:09:54 EDT">
+      <class name="com.automationpractice.test.SearchBarValidationTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.automationpractice.test.SearchBarValidationTest@77f80c04]" name="initialize" is-config="true" duration-ms="6466" started-at="2020-04-22T18:09:47 EDT" finished-at="2020-04-22T18:09:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePageContent()[pri:0, instance:com.automationpractice.test.SearchBarValidationTest@77f80c04]" name="homePageContent" duration-ms="118" started-at="2020-04-22T18:09:54 EDT" finished-at="2020-04-22T18:09:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageContent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automationpractice.test.SearchBarValidationTest@77f80c04]" name="teardown" is-config="true" duration-ms="87" started-at="2020-04-22T18:09:54 EDT" finished-at="2020-04-22T18:09:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.test.SearchBarValidationTest -->
+    </test> <!-- validating search box bar -->
+    <test name="validating home page" duration-ms="15471" started-at="2020-04-22T18:09:54 EDT" finished-at="2020-04-22T18:10:09 EDT">
+      <class name="com.automationpractice.test.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.automationpractice.test.HomePage@762ef0ea]" name="initialize" is-config="true" duration-ms="6652" started-at="2020-04-22T18:09:54 EDT" finished-at="2020-04-22T18:10:01 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homePage(java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.test.HomePage@762ef0ea]" name="homePage" duration-ms="2687" started-at="2020-04-22T18:10:01 EDT" data-provider="getData" finished-at="2020-04-22T18:10:03 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eminism2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="homePage(java.lang.String, java.lang.String)[pri:0, instance:com.automationpractice.test.HomePage@762ef0ea]" name="homePage" duration-ms="1792" started-at="2020-04-22T18:10:03 EDT" data-provider="getData" finished-at="2020-04-22T18:10:05 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eminismikhan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.automationpractice.test.HomePage@762ef0ea]" name="teardown" is-config="true" duration-ms="4324" started-at="2020-04-22T18:10:05 EDT" finished-at="2020-04-22T18:10:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.test.HomePage -->
+    </test> <!-- validating home page -->
+  </suite> <!-- Suite -->
+</testng-results>

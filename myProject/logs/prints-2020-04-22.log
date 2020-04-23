@@ -1,0 +1,6 @@
+18:09:45.517 [main] INFO  driverFactory.BrowserFactory - Driver initialized
+18:09:46.921 [main] INFO  driverFactory.BrowserFactory - Navigated to Sign In page
+18:09:54.249 [main] INFO  driverFactory.BrowserFactory - Navigated to sign in page successfully
+18:09:54.368 [main] INFO  driverFactory.BrowserFactory - Search Bar is verified successfully
+18:10:01.131 [main] INFO  driverFactory.BrowserFactory - Navigated to home page
+21:47:37.378 [main] INFO  driverFactory.BrowserFactory - Driver initialized

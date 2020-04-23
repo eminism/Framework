@@ -1,0 +1,5 @@
+21:47:39.036 [main] INFO  driverFactory.BrowserFactory - Navigated to Sign In page
+21:47:39.197 [main] INFO  driverFactory.BrowserFactory - Text verified successfully
+21:47:45.757 [main] INFO  driverFactory.BrowserFactory - Navigated to sign in page successfully
+21:47:45.852 [main] INFO  driverFactory.BrowserFactory - Search Bar is verified successfully
+21:47:52.673 [main] INFO  driverFactory.BrowserFactory - Navigated to home page
